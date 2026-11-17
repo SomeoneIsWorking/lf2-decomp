@@ -1,0 +1,15 @@
+# The image this decomp covers: the player's own install, pinned by SHA-256.
+# Sections were read from this exact file; a file with the same hash has the same layout.
+
+[[image]]
+file = "lf2.exe"
+size = 3424256
+sha256 = "12dfa00f6b767508612550e9ab27ab74b4201ff4cb9ff31d068925924eab8fc5"
+image_base = 0x00400000
+symbols = "config/symbols/lf2.txt"
+sections = [
+  { name = ".text", start = 0x00401000, size = 0x4530a, execute = true },
+  { name = ".rdata", start = 0x00447000, size = 0x56c0, execute = false },
+  { name = ".data", start = 0x0044d000, size = 0xc724, execute = false },
+  { name = ".rsrc", start = 0x0045a000, size = 0x2f42f0, execute = false },
+]

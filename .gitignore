@@ -1,0 +1,11 @@
+# The player's own install; never committed.
+/install/
+# Local tooling.
+/.venv/
+__pycache__/
+*.pyc
+/scratch/
+/build/
+# Decompiler output and Ghidra projects.
+/env-assets/
+/re/
